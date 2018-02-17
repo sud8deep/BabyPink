@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FCB6C192037EA220031BFBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCB6C182037EA220031BFBD /* AppDelegate.swift */; };
+		8FCB6C1B2037EA220031BFBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCB6C1A2037EA220031BFBD /* ViewController.swift */; };
+		8FCB6C1E2037EA220031BFBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FCB6C1C2037EA220031BFBD /* Main.storyboard */; };
+		8FCB6C212037EA220031BFBD /* BabyPink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FCB6C1F2037EA220031BFBD /* BabyPink.xcdatamodeld */; };
+		8FCB6C232037EA220031BFBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FCB6C222037EA220031BFBD /* Assets.xcassets */; };
+		8FCB6C262037EA220031BFBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FCB6C242037EA220031BFBD /* LaunchScreen.storyboard */; };
+		8FCB6C312037EA230031BFBD /* BabyPinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCB6C302037EA230031BFBD /* BabyPinkTests.swift */; };
+		8FCB6C3C2037EA230031BFBD /* BabyPinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCB6C3B2037EA230031BFBD /* BabyPinkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FCB6C2D2037EA230031BFBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FCB6C0D2037EA220031BFBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FCB6C142037EA220031BFBD;
+			remoteInfo = BabyPink;
+		};
+		8FCB6C382037EA230031BFBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FCB6C0D2037EA220031BFBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FCB6C142037EA220031BFBD;
+			remoteInfo = BabyPink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FCB6C152037EA220031BFBD /* BabyPink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyPink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCB6C182037EA220031BFBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FCB6C1A2037EA220031BFBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FCB6C1D2037EA220031BFBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FCB6C202037EA220031BFBD /* BabyPink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BabyPink.xcdatamodel; sourceTree = "<group>"; };
+		8FCB6C222037EA220031BFBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FCB6C252037EA220031BFBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FCB6C272037EA220031BFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FCB6C2C2037EA230031BFBD /* BabyPinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyPinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCB6C302037EA230031BFBD /* BabyPinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyPinkTests.swift; sourceTree = "<group>"; };
+		8FCB6C322037EA230031BFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FCB6C372037EA230031BFBD /* BabyPinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyPinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCB6C3B2037EA230031BFBD /* BabyPinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyPinkUITests.swift; sourceTree = "<group>"; };
+		8FCB6C3D2037EA230031BFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FCB6C122037EA220031BFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCB6C292037EA230031BFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCB6C342037EA230031BFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FCB6C0C2037EA220031BFBD = {
+			isa = PBXGroup;
+			children = (
+				8FCB6C172037EA220031BFBD /* BabyPink */,
+				8FCB6C2F2037EA230031BFBD /* BabyPinkTests */,
+				8FCB6C3A2037EA230031BFBD /* BabyPinkUITests */,
+				8FCB6C162037EA220031BFBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FCB6C162037EA220031BFBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FCB6C152037EA220031BFBD /* BabyPink.app */,
+				8FCB6C2C2037EA230031BFBD /* BabyPinkTests.xctest */,
+				8FCB6C372037EA230031BFBD /* BabyPinkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FCB6C172037EA220031BFBD /* BabyPink */ = {
+			isa = PBXGroup;
+			children = (
+				8FCB6C182037EA220031BFBD /* AppDelegate.swift */,
+				8FCB6C1A2037EA220031BFBD /* ViewController.swift */,
+				8FCB6C1C2037EA220031BFBD /* Main.storyboard */,
+				8FCB6C222037EA220031BFBD /* Assets.xcassets */,
+				8FCB6C242037EA220031BFBD /* LaunchScreen.storyboard */,
+				8FCB6C272037EA220031BFBD /* Info.plist */,
+				8FCB6C1F2037EA220031BFBD /* BabyPink.xcdatamodeld */,
+			);
+			path = BabyPink;
+			sourceTree = "<group>";
+		};
+		8FCB6C2F2037EA230031BFBD /* BabyPinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FCB6C302037EA230031BFBD /* BabyPinkTests.swift */,
+				8FCB6C322037EA230031BFBD /* Info.plist */,
+			);
+			path = BabyPinkTests;
+			sourceTree = "<group>";
+		};
+		8FCB6C3A2037EA230031BFBD /* BabyPinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FCB6C3B2037EA230031BFBD /* BabyPinkUITests.swift */,
+				8FCB6C3D2037EA230031BFBD /* Info.plist */,
+			);
+			path = BabyPinkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FCB6C142037EA220031BFBD /* BabyPink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FCB6C402037EA230031BFBD /* Build configuration list for PBXNativeTarget "BabyPink" */;
+			buildPhases = (
+				8FCB6C112037EA220031BFBD /* Sources */,
+				8FCB6C122037EA220031BFBD /* Frameworks */,
+				8FCB6C132037EA220031BFBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyPink;
+			productName = BabyPink;
+			productReference = 8FCB6C152037EA220031BFBD /* BabyPink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FCB6C2B2037EA230031BFBD /* BabyPinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FCB6C432037EA230031BFBD /* Build configuration list for PBXNativeTarget "BabyPinkTests" */;
+			buildPhases = (
+				8FCB6C282037EA230031BFBD /* Sources */,
+				8FCB6C292037EA230031BFBD /* Frameworks */,
+				8FCB6C2A2037EA230031BFBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FCB6C2E2037EA230031BFBD /* PBXTargetDependency */,
+			);
+			name = BabyPinkTests;
+			productName = BabyPinkTests;
+			productReference = 8FCB6C2C2037EA230031BFBD /* BabyPinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FCB6C362037EA230031BFBD /* BabyPinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FCB6C462037EA230031BFBD /* Build configuration list for PBXNativeTarget "BabyPinkUITests" */;
+			buildPhases = (
+				8FCB6C332037EA230031BFBD /* Sources */,
+				8FCB6C342037EA230031BFBD /* Frameworks */,
+				8FCB6C352037EA230031BFBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FCB6C392037EA230031BFBD /* PBXTargetDependency */,
+			);
+			name = BabyPinkUITests;
+			productName = BabyPinkUITests;
+			productReference = 8FCB6C372037EA230031BFBD /* BabyPinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FCB6C0D2037EA220031BFBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = sudeep.r;
+				TargetAttributes = {
+					8FCB6C142037EA220031BFBD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8FCB6C2B2037EA230031BFBD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8FCB6C142037EA220031BFBD;
+					};
+					8FCB6C362037EA230031BFBD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8FCB6C142037EA220031BFBD;
+					};
+				};
+			};
+			buildConfigurationList = 8FCB6C102037EA220031BFBD /* Build configuration list for PBXProject "BabyPink" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FCB6C0C2037EA220031BFBD;
+			productRefGroup = 8FCB6C162037EA220031BFBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FCB6C142037EA220031BFBD /* BabyPink */,
+				8FCB6C2B2037EA230031BFBD /* BabyPinkTests */,
+				8FCB6C362037EA230031BFBD /* BabyPinkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FCB6C132037EA220031BFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCB6C262037EA220031BFBD /* LaunchScreen.storyboard in Resources */,
+				8FCB6C232037EA220031BFBD /* Assets.xcassets in Resources */,
+				8FCB6C1E2037EA220031BFBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCB6C2A2037EA230031BFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCB6C352037EA230031BFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FCB6C112037EA220031BFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCB6C212037EA220031BFBD /* BabyPink.xcdatamodeld in Sources */,
+				8FCB6C1B2037EA220031BFBD /* ViewController.swift in Sources */,
+				8FCB6C192037EA220031BFBD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCB6C282037EA230031BFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCB6C312037EA230031BFBD /* BabyPinkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCB6C332037EA230031BFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCB6C3C2037EA230031BFBD /* BabyPinkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FCB6C2E2037EA230031BFBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FCB6C142037EA220031BFBD /* BabyPink */;
+			targetProxy = 8FCB6C2D2037EA230031BFBD /* PBXContainerItemProxy */;
+		};
+		8FCB6C392037EA230031BFBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FCB6C142037EA220031BFBD /* BabyPink */;
+			targetProxy = 8FCB6C382037EA230031BFBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FCB6C1C2037EA220031BFBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FCB6C1D2037EA220031BFBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FCB6C242037EA220031BFBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FCB6C252037EA220031BFBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FCB6C3E2037EA230031BFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FCB6C3F2037EA230031BFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FCB6C412037EA230031BFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29G9X9UTQX;
+				INFOPLIST_FILE = BabyPink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = urbanladder.BabyPink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FCB6C422037EA230031BFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29G9X9UTQX;
+				INFOPLIST_FILE = BabyPink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = urbanladder.BabyPink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8FCB6C442037EA230031BFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29G9X9UTQX;
+				INFOPLIST_FILE = BabyPinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = urbanladder.BabyPinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyPink.app/BabyPink";
+			};
+			name = Debug;
+		};
+		8FCB6C452037EA230031BFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29G9X9UTQX;
+				INFOPLIST_FILE = BabyPinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = urbanladder.BabyPinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyPink.app/BabyPink";
+			};
+			name = Release;
+		};
+		8FCB6C472037EA230031BFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29G9X9UTQX;
+				INFOPLIST_FILE = BabyPinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = urbanladder.BabyPinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabyPink;
+			};
+			name = Debug;
+		};
+		8FCB6C482037EA230031BFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29G9X9UTQX;
+				INFOPLIST_FILE = BabyPinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = urbanladder.BabyPinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabyPink;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FCB6C102037EA220031BFBD /* Build configuration list for PBXProject "BabyPink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCB6C3E2037EA230031BFBD /* Debug */,
+				8FCB6C3F2037EA230031BFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FCB6C402037EA230031BFBD /* Build configuration list for PBXNativeTarget "BabyPink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCB6C412037EA230031BFBD /* Debug */,
+				8FCB6C422037EA230031BFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FCB6C432037EA230031BFBD /* Build configuration list for PBXNativeTarget "BabyPinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCB6C442037EA230031BFBD /* Debug */,
+				8FCB6C452037EA230031BFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FCB6C462037EA230031BFBD /* Build configuration list for PBXNativeTarget "BabyPinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCB6C472037EA230031BFBD /* Debug */,
+				8FCB6C482037EA230031BFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8FCB6C1F2037EA220031BFBD /* BabyPink.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8FCB6C202037EA220031BFBD /* BabyPink.xcdatamodel */,
+			);
+			currentVersion = 8FCB6C202037EA220031BFBD /* BabyPink.xcdatamodel */;
+			path = BabyPink.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8FCB6C0D2037EA220031BFBD /* Project object */;
+}
